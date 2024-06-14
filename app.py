@@ -16,7 +16,7 @@ st.header('Fill the Details to generate the Predicted Laptop Price')
 options = st.sidebar.selectbox('select ML Model',['Lin_Reg','Bag_Reg','Random_Forest'])
 
 
-company = st.selectbox('Company',['Dell','Lenovo','HP','Asus','Asus','MSI','Toshiba','Apple','Others'])
+company = st.selectbox('Company',['Dell','Lenovo','HP','Asus','Acer','MSI','Toshiba','Apple','Others'])
 typename = st.selectbox('TypeName',['Notebook','Gaming','Ultrabook','2 in 1 Convertible',
                                  'Workstation','Netbook'])
 ram = st.selectbox('RAM',[2,4,6,8,12,16,24,32,64])
